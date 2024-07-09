@@ -1,0 +1,150 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.friend {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius:10px;
+    position: relative;
+}
+.friend >*{
+    padding: 15px 0px;
+}
+.top-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    position: absolute;
+    top: 5px;
+    left:20px;
+    display: flex;
+    column-gap: 6px;
+    
+}
+.icons a{
+    display: flex;
+    align-items: center;
+    background-color: rgb(225, 225, 225);
+    position: relative;
+    padding: 6px;
+    border-radius: 20px;
+    border-width: 0px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.icons img{
+    height: 12px;
+    width: 12px;
+    object-fit:contain;
+
+}
+.icons p{
+    position: absolute;
+    z-index: 1;
+    top: -42px;
+    left: 0px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+.icons a:hover{
+    background-color: rgb(128, 162, 255);
+
+}
+.icons a:hover p {
+    opacity: 1;
+
+}
+.pfp {
+
+
+    width: 110px;
+    border-radius: 55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.friend-info {
+    display: grid;
+
+    grid-template-columns: 15px 1fr;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 15px;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    font-weight: 500;
+}
+
+.friend-info img {
+    height: 15px;
+}
+.friend-info span{
+    font-size: 14px;
+}
+.bottom-div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bottom-div button{
+
+    color:white;
+    border-width: 0px;
+    border-radius:5px;
+
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.profile-button{
+    background-color: rgb(23, 112, 255);
+}
+.remove-button{
+    background-color: rgb(255, 72, 40);
+
+}
+
+@media(max-width:799px)
+{
+    .main-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width:800px) and (max-width:1199px)
+{
+    .main-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:1200px) and (max-width:1499px)
+{
+    .main-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width:1500px) and (max-width:1899px)
+{
+    .main-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media(min-width:1900px)
+{    .main-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Settings</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <link rel="stylesheet" href="Styles/General.css" />
+    <link rel="stylesheet" href="Styles/Left Section.css" />
+    <link rel="stylesheet" href="Styles/Top Section.css" />
+    <link rel="stylesheet" href="Styles/Settings Main Section.css" />
+  </head>
+
+  <body>
+    <section class="left-section">
+      <p class="site-title">Amr</p>
+
+      <a class="page-type-container" href="Dashboard.html">
+        <img src="Images/Dashboard Icon.png" class="page-type-img" />
+        <span class="page-type-title">Dashboard</span>
+      </a>
+      <a
+        class="page-type-container"
+        href="Settings.html"
+        style="background-color: rgb(240, 240, 240)"
+      >
+        <img src="Images/Settings Icon.png" class="page-type-img" />
+        <span class="page-type-title">Settings</span>
+      </a>
+      <a class="page-type-container" href="Profile.html">
+        <img src="Images/Profile Icon.png" class="page-type-img" />
+        <span class="page-type-title">Profile</span>
+      </a>
+      <a class="page-type-container" href="Projects.html">
+        <img src="Images/Project-Icon-1.png" class="page-type-img" />
+        <span class="page-type-title">Projects</span>
+      </a>
+      <a class="page-type-container" href="Courses.html">
+        <img src="Images/graduation cap.png" class="page-type-img" />
+        <span class="page-type-title">Courses</span>
+      </a>
+      <a class="page-type-container" href="Friends.html">
+        <img src="Images/Friends.png" class="page-type-img" />
+        <span class="page-type-title">Friends</span>
+      </a>
+      <a class="page-type-container" href="Files.html">
+        <img src="Images/File.webp" class="page-type-img" />
+        <span class="page-type-title">Files</span>
+      </a>
+
+      <a class="page-type-container" href="Plans.html">
+        <img src="Images/Credit card.png" class="page-type-img" />
+        <span class="page-type-title">Plans</span>
+      </a>
+    </section>
+
+    <section class="main-section">
+      <header class="main-header">
+        <div class="search-div">
+          <input type="text" placeholder="Type a Keyword" />
+          <img src="Images/search icon.png" class="search-img" />
+        </div>
+        <img src="Images/Notification Icon.png" class="notification-img" />
+        <img src="Images/me.jpg" class="user-img" />
+      </header>
+
+      <section class="main-contents">
+        <p class="page-title">Settings</p>
+        <div class="title-bar">
+            <div></div>
+        </div>
+        <div class="settings-grid">
+          <section class="site-control">
+            <p class="big-bold-text">Site Control</p>
+            <p class="medium-grey-text">
+              Control The Website If There Is Maintenance
+            </p>
+            <div class="website-control">
+              <div>
+                <p class="medium-bold-text">Website Control</p>
+                <p class="medium-grey-text">
+                  Open/Close Website And Type The Reason
+                </p>
+              </div>
+              <div class="switch-container">
+                <label for="switch-checkbox-1">
+                  <input
+                    type="checkbox"
+                    id="switch-checkbox-1"
+                    class="switch-checkboxes"
+                    checked
+                  />
+                  <div
+                    class="switch-button"
+                    style="transform: scale(1.5); margin: 0px 20px"
+                  >
+                    <div class="switch-circle">
+                      <span class="off">x</span>
+                      <span class="on"> &#x2713;</span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <textarea placeholder="Close Message Content"></textarea>
+          </section>
+
+          <section class="general-info">
+            <p class="big-bold-text">General Info</p>
+            <p class="medium-grey-text">
+              General Information About Your Account
+            </p>
+            <div>
+              <label for="text-1">First Name</label>
+              <input type="text" id="text-1" placeholder="First Name" />
+            </div>
+            <div>
+              <label for="text-2">Last Name</label>
+              <input type="text" id="text-2" placeholder="Last Name" />
+            </div>
+            <div>
+              <label for="text-3">Email</label>
+              <div class="email-div">
+                <input
+                  type="text"
+                  id="text-3"
+                  placeholder="amromsllam@gmail.com"
+                  disabled
+                />
+                <button>Change</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="security-info">
+            <p class="big-bold-text">Security Info</p>
+            <p class="medium-grey-text">
+              Security Information About Your Account
+            </p>
+            <div class="security-info-section">
+              <div>
+                <p class="medium-text">Password</p>
+                <p class="small-grey-text">Last Change on 6/7/2024</p>
+              </div>
+              <button class="change-button">Change</button>
+            </div>
+            <div class="security-info-section">
+              <div>
+                <p class="medium-text">Two-Factor Authentication</p>
+                <p class="small-grey-text">Enable/Disable The Feature</p>
+              </div>
+              <div class="switch-container">
+                <label for="switch-checkbox-2">
+                  <input
+                    type="checkbox"
+                    id="switch-checkbox-2"
+                    class="switch-checkboxes"
+                    checked
+                  />
+                  <div
+                    class="switch-button"
+                    style="transform: scale(1.2); margin: 0px 6px"
+                  >
+                    <div class="switch-circle">
+                      <span class="off">x</span>
+                      <span class="on"> &#x2713;</span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="security-info-section">
+              <div>
+                <p class="medium-text">Password</p>
+                <p class="small-grey-text">Last Change on 6/7/2024</p>
+              </div>
+              <button>Devices</button>
+            </div>
+          </section>
+
+          <section class="social-info">
+            <p class="big-bold-text">Social Info</p>
+            <p class="medium-grey-text">Social Media Information</p>
+            <div class="social-input">
+              <input type="text" placeholder="Twitter Username" id="" />
+              <img src="Images/twitter black.svg" />
+            </div>
+            <div class="social-input">
+              <input type="text" placeholder="Twitter Username" id="" />
+              <img src="Images/Facebook Black.png" />
+            </div>
+            <div class="social-input">
+              <input type="text" placeholder="Twitter Username" id="" />
+              <img src="Images/Youtube Black.png" />
+            </div>
+          </section>
+
+          <section class="widgets">
+            <p class="big-bold-text">Widgets Control</p>
+            <p class="medium-grey-text">Show/Hide Widgets</p>
+            <div class="widgets-checkboxes">
+              <label for="checkbox-1">
+                <input type="checkbox" id="checkbox-1" />
+                <div class="custom-checkbox">
+                  <div class="custom-check">
+                    <img src="Images/White-Checkmark.png" />
+                  </div>
+                </div>
+                <span>Quick Draft</span>
+              </label>
+
+              <label for="checkbox-2">
+                <input type="checkbox" id="checkbox-2" checked />
+                <div class="custom-checkbox">
+                  <div class="custom-check">
+                    <img src="Images/White-Checkmark.png" />
+                  </div>
+                </div>
+                <span>Yearly Targets</span>
+              </label>
+
+              <label for="checkbox-3">
+                <input type="checkbox" id="checkbox-3" />
+                <div class="custom-checkbox">
+                  <div class="custom-check">
+                    <img src="Images/White-Checkmark.png" />
+                  </div>
+                </div>
+                <span>Tickets Statistics</span>
+              </label>
+
+              <label for="checkbox-4">
+                <input type="checkbox" id="checkbox-4" checked />
+                <div class="custom-checkbox">
+                  <div class="custom-check">
+                    <img src="Images/White-Checkmark.png" />
+                  </div>
+                </div>
+                <span>Latest News</span>
+              </label>
+
+              <label for="checkbox-5">
+                <input type="checkbox" id="checkbox-5" />
+                <div class="custom-checkbox">
+                  <div class="custom-check">
+                    <img src="Images/White-Checkmark.png" />
+                  </div>
+                </div>
+                <span>Latest Tasks</span>
+              </label>
+              <label for="checkbox-6">
+                <input type="checkbox" id="checkbox-6" checked />
+                <div class="custom-checkbox">
+                  <div class="custom-check">
+                    <img src="Images/White-Checkmark.png" />
+                  </div>
+                </div>
+                <span>Top Search Items</span>
+              </label>
+            </div>
+          </section>
+
+          <section class="backup">
+            <p class="big-bold-text">Backup Manager</p>
+            <p class="medium-grey-text">Control Backup Time and Location</p>
+
+            <div class="backup-radio-container-1">
+              <label for="radio-1">
+                <input type="radio" id="radio-1" name="radio-group-1" />
+                <div class="custom-radio">
+                  <div class="custom-radio-check"></div>
+                </div>
+                <span>Daily</span>
+              </label>
+
+              <label for="radio-2">
+                <input type="radio" id="radio-2" name="radio-group-1" />
+                <div class="custom-radio">
+                  <div class="custom-radio-check"></div>
+                </div>
+                <span>Weekly</span>
+              </label>
+
+              <label for="radio-3">
+                <input type="radio" id="radio-3" name="radio-group-1" checked />
+                <div class="custom-radio">
+                  <div class="custom-radio-check"></div>
+                </div>
+                <span>Monthly</span>
+              </label>
+            </div>
+
+            <div class="backup-radio-container-2">
+              <label for="radio-4">
+                <input type="radio" id="radio-4" name="radio-group-2" checked />
+                <div class="custom-radio">
+                  <span>Megaman</span>
+                </div>
+              </label>
+              <label for="radio-5">
+                <input type="radio" id="radio-5" name="radio-group-2" />
+                <div class="custom-radio">
+                  <span>Zero</span>
+                </div>
+              </label>
+              <label for="radio-6">
+                <input type="radio" id="radio-6" name="radio-group-2" />
+                <div class="custom-radio">
+                  <span>Sigma</span>
+                </div>
+              </label>
+            </div>
+          </section>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
