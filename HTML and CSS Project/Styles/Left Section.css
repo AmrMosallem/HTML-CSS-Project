@@ -6,6 +6,7 @@
     z-index: 1;
     max-width: 170px;
     background-color: white;
+    min-height: 100vh;
 
 }
 .left-section a{
