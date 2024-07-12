@@ -90,6 +90,10 @@ body {
     font-weight: bold;
 
 }
+.switch-circle span::selection{
+    color: rgb(150, 150, 150);
+    background-color: none;
+ }
 .switch-circle .on{
     left:3px;
     color: rgb(0, 100, 255);

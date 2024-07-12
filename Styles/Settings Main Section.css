@@ -48,6 +48,7 @@ label {
 
 .general-info>div input,
 .email-div input {
+    
     padding: 10px;
     border-radius: 5px;
     border: 1px solid rgb(200, 200, 200);
@@ -58,6 +59,7 @@ label {
 }
 
 .email-div input {
+    width: 0px;
     flex: 1;
     cursor: not-allowed;
 
@@ -68,7 +70,6 @@ label {
     border: none;
     background-color: rgba(0, 0, 0, 0);
     color: rgb(0, 100, 255);
-    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -102,7 +103,6 @@ label {
 
     display: flex;
     margin: 20px 0px;
-    padding: 0px 12px;
     background-color: rgb(240, 240, 240);
     border-radius: 5px;
     border: 1px solid rgb(200, 200, 200);
@@ -126,9 +126,10 @@ label {
 
 .social-input input {
     flex: 1;
+    width: 0px;
     background-color: rgb(240, 240, 240);
     border-width: 0px;
-    padding: 0px 40px;
+    padding: 0px 00px 0px 45px;
     height: 36px;
 }
 
