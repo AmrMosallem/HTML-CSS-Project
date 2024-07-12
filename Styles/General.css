@@ -43,6 +43,9 @@ body {
     font-size: 14px;
     margin: 0px;
 }
+.fs-12{
+    font-size: 12px;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -61,7 +64,7 @@ body {
 
 .switch-button {
     height: 10px;
-    width: 50px;
+    width: 40px;
     padding: 5px 5px;
     border-radius: 10px;
     background-color: rgb(200, 200, 200);
@@ -88,12 +91,11 @@ body {
     left:3.5px;
     color: rgb(150, 150, 150);
     font-weight: bold;
-
 }
 .switch-circle span::selection{
-    color: rgb(150, 150, 150);
-    background-color: none;
- }
+   color: rgb(150, 150, 150);
+   background-color: none;
+}
 .switch-circle .on{
     left:3px;
     color: rgb(0, 100, 255);
@@ -109,7 +111,7 @@ body {
 }
 
 .switch-checkboxes:checked~.switch-button .switch-circle {
-    transform: translateX(38px);
+    transform: translateX(30px);
 }
 
 .switch-checkboxes{

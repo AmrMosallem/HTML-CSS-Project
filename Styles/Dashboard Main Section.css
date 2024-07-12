@@ -336,15 +336,16 @@
 .reminder-container {
     display: flex;
     align-items: center;
-    column-gap: 15px;
-    row-gap: 10px;
+    column-gap: 10px;
     margin-top: 20px;
 }
-
+.reminder-info {
+    flex:1;
+}
 .reminders-circle {
     width: 15px;
     height: 15px;
-    border-radius: 8px;
+    border-radius: 28px;
 }
 
 .reminders-line {
