@@ -1,6 +1,6 @@
 .projects-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -101,15 +101,4 @@
         width: 150px;
     }
 }
-@media(min-width:1300px) and (max-width:1899px)
-{
-    .projects-container {
-        grid-template-columns:  1fr 1fr;
-    }
-    
-}
- @media(min-width:1900px) {
-    .projects-container {
-        grid-template-columns:  1fr 1fr 1fr;
-    }
-}
+

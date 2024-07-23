@@ -1,6 +1,7 @@
 .settings-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -266,23 +267,7 @@ input:focus {
 }
 
 
-@media (max-width:100px) {
-    .settings-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
-@media (min-width:1300px) and (max-width:1799px) {
-    .settings-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width:1800px) {
-    .settings-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
 @media (max-width:699px) {
     .backup-radio-container-2 {
