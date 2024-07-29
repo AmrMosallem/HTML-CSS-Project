@@ -1,7 +1,7 @@
 .profile-grid {
   display: grid;
   grid-template-columns: 1fr;
-
+  box-sizing: border-box;
   column-gap: 10px;
   background-color: white;
   border-radius: 10px;
@@ -43,6 +43,7 @@
 }
 
 .profile-details-section {
+  box-sizing: border-box;
   padding: 20px 20px;
   border: 1px solid rgb(240, 240, 240);
   transition: all 0.2s;
@@ -59,7 +60,7 @@
 
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   row-gap: 10px;
 }
 
@@ -115,7 +116,7 @@
 }
 
 .activites-container img {
-  height: 70px;
+  height: 55px;
 }
 .activites-container p {
   margin: 0px 0px 5px 0px;

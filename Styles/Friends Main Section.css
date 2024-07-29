@@ -104,8 +104,13 @@
 }
 .profile-button {
   background-color: rgb(23, 112, 255);
+  margin-bottom: 5px;
 }
 .remove-button {
   background-color: rgb(255, 72, 40);
 }
-
+@media (max-width:499px){
+  .main-grid {
+      grid-template-columns: 1fr;
+  }
+}
